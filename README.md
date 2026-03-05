@@ -182,26 +182,36 @@ ORDER BY maintenance_cost_per_mile DESC;
 ---
 
 ## 📷 Dashboard Preview
-
-![Dashboard Preview](dashboard_preview.png)
+![Logistic Dashboard_pages-to-jpg-0001](https://github.com/user-attachments/assets/42f91b46-93a2-480f-829e-464ce196659f)
+![Logistic Dashboard_pages-to-jpg-0002](https://github.com/user-attachments/assets/28d7a349-a0eb-441e-855a-24e7d290fe1b)
 
 ---
 
 ## 💡 Key Insights
 
+- February is the lowest month that generates revenue throught all years.
+- Top routes generate $22M gross profit each (e.g. Philadelphia-Seattle, Charlotte-Portland)
+- Top customer (First Group) brings in $18.3M gross profit, significantly higher than the rest of the companies.
+- Reliable & Top Performers average ~1,900–2,000 miles/day** and 0.48–0.50 on-time
 - Higher mileage does not always correlate with better on-time performance.
-- A small number of drivers contribute disproportionately to late deliveries.
-- Monitoring performance vs average helps identify operational inefficiencies early.
+- Old truck generally have more issues (maintenance) than newer trucks.
+- Underperformer driver is surprisingly significant (26%), something to take notes.
 
 ---
 
 ## 🚀 Future Improvements
-
-- Predictive delay modeling
-- Route optimization analysis
-- Integration with real-time tracking systems
-- Advanced performance scoring model
+Dive deeper into the analysis
+- Cost per mile/load
+- Fuel efficiency (MPG or $/mile trends by driver/route/model)
+- Behavior scoring (harsh braking, speeding, idling events)
+- etc
 
 ---
 
-## 📂 Repository Structure
+## 👤 About the Author
+**Muhammad Naufaldi**  
+Physics graduate with interest in technology, innovation, and data analysis.
+
+### 🌐 Contact
+- **LinkedIn:** https://www.linkedin.com/in/muhammad-naufaldi-608517246/
+- **Portfolio:** https://linktr.ee/PortofolioNaufaldi
