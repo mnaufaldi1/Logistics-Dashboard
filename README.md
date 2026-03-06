@@ -17,7 +17,7 @@ Logistics operations often face challenges such as:
 
 Without structured performance tracking, decision-making becomes reactive instead of data-driven.
 
-This project simulates and simplify a real-world logistics performance monitoring system.
+This project simulates a real-world logistics performance monitoring system.
 
 ---
 
@@ -43,7 +43,7 @@ The dataset includes structured logistics operational data such as:
 - etc
 
 For the full dataset, check the folder raw_data
-> Note: This project uses a simulated dataset (Kaggle) designed to replicate real logistics scenarios.
+> Note: This project uses a real dataset from ([Kaggle](https://www.kaggle.com/datasets/yogape/logistics-operations-database)) designed to replicate real logistics scenarios.
 
 ---
 
@@ -169,9 +169,9 @@ ORDER BY maintenance_cost_per_mile DESC;
 ## 📈 Dashboard Features
 
 ### 🚚 Financial Analysis
-- On-Time Delivery Rate (KPI)
-- Total Miles Driven
-- Overall Performance Trends
+- Monthly Revenue Trend Analysis
+- Top Routes by Gross Profit
+- Customer Profitability Comparison
 
 ### 👤 Operational Analysis
 - Performance Comparison Table (On-Time Rate & Miles per Day)
@@ -189,21 +189,23 @@ ORDER BY maintenance_cost_per_mile DESC;
 
 ## 💡 Key Insights
 
-- February is the lowest month that generates revenue throught all years.
-- Top routes generate $22M gross profit each (e.g. Philadelphia-Seattle, Charlotte-Portland)
-- Top customer (First Group) brings in $18.3M gross profit, significantly higher than the rest of the companies.
-- Reliable & Top Performers average ~1,900–2,000 miles/day** and 0.48–0.50 on-time
-- Higher mileage does not always correlate with better on-time performance.
-- Old truck generally have more issues (maintenance) than newer trucks.
-- Underperformer driver is surprisingly significant (26%), something to take notes.
+- February consistently shows the lowest revenue across all years, suggesting possible seasonal demand fluctuations.
+- Several routes generate around $22M gross profit (e.g., Philadelphia–Seattle, Charlotte–Portland), indicating high-value logistics corridors.
+- The top customer (First Group) contributes $18.3M in gross profit, significantly outperforming other customers.
+- Reliable and Top Performer drivers average ~1,900–2,000 miles per day with on-time rates close to 0.48–0.50.
+- Higher mileage does not always translate to better on-time performance, indicating potential operational trade-offs between speed and reliability.
+- Older trucks tend to have higher maintenance cost per mile compared to newer models.
+- Underperforming drivers account for about 26% of the workforce, representing a potential opportunity for training or operational improvement.
 
 ---
 
 ## 🚀 Future Improvements
 Dive deeper into the analysis
 - Cost per mile/load
-- Fuel efficiency (MPG or $/mile trends by driver/route/model)
+- Fuel efficiency (MPG trends by driver/route/model)
 - Behavior scoring (harsh braking, speeding, idling events)
+- Predictive delay risk modeling using historical delivery data
+- Route optimization analysis to identify more efficient delivery paths
 - etc
 
 ---
@@ -213,5 +215,5 @@ Dive deeper into the analysis
 Physics graduate with interest in technology, innovation, and data analysis.
 
 ### 🌐 Contact
-- **LinkedIn:** https://www.linkedin.com/in/muhammad-naufaldi-608517246/
+- **LinkedIn:** https://www.linkedin.com/in/muhammad-naufaldi1/
 - **Portfolio:** https://linktr.ee/PortofolioNaufaldi
